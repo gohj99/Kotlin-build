@@ -1,7 +1,7 @@
 # Kotlin-build
 
 ## Introduction
-This repository contains GitHub Actions workflows for building and releasing Android applications written in Kotlin. The main workflow, defined in [app-build.yml](app-build.yml), automates the building, signing, and releasing of the application.
+This repository contains GitHub Actions workflows for building and releasing Android applications written in Kotlin. The main workflow, defined in `app-build.yml`, automates the building, signing, and releasing of the application.
 
 ## Workflow: Android Build and Release
 
