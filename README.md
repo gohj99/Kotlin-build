@@ -25,8 +25,9 @@ To use this workflow:
 2. Ensure all required secrets are configured in your GitHub repository.
 3. Push changes to the master branch.
 4. The workflow will run automatically, building, signing, and releaseing your application.
-5. After the workflow completes, check the created release in your repository's "Releases" section.
-6. Validate the generated APK and release informaion, make any necessary corrections manually.
+5. The name and version of the software released in the "Releases" section will reflect the repository name and the version specified in the `app/build.gradle.kts` file.
+6. After the workflow completes, check the created release in your repository's "Releases" section.
+7. Validate the generated APK and release informaion, make any necessary corrections manually.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
